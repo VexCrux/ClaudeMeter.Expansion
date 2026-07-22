@@ -1,9 +1,9 @@
-<!-- Animated Gradient Header - Claude Terracotta with Animation -->
+<!-- Animated Gradient Header - Claude Terracotta with Glow Effect -->
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:C96442,100:D4785A&height=200&section=header&text=ClaudeMeter&fontSize=55&fontColor=F5F4ED&animation=twinkling&fontAlignY=40&desc=By%20VexCrux&descSize=18&descAlignY=65&descColor=E8E6E0" alt="Header">
 
-  <!-- Browser Extension Label -->
+  <!-- Browser Extension Label - Rounded with Icon -->
   <p align="center">
-    <img src="https://img.shields.io/badge/🌐_Browser_Extension-C96442?style=for-the-badge&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
+    <img src="https://img.shields.io/badge/Browser_Extension-C96442?style=for-the-badge&labelColor=1a1a1a&logo=googlechrome&logoColor=white&borderRadius=20" alt="Browser Extension">
   </p>
 
   <!-- Language Switcher - Rounded -->
@@ -94,7 +94,7 @@
 | **Messages Bar** / **Полоса сообщений** | Show Messages Bar / Показывать полосу сообщений | Toggle red progress bar for remaining messages. / Включение/отключение красной полосы прогресса для оставшихся сообщений. |
 | | Bar Color / Цвет полосы | Customize messages bar color. Default: red. / Настройка цвета полосы сообщений. По умолчанию: красный. |
 | | Show Count / Показывать количество | Display "Messages left: X" on the right. / Отображение "Messages left: X" справа. |
-| **Period Info** / **Информация о периоде** | Show Period / Показывать период | Toggle subscription period display. / Включение/отключение отображения периода подписки. |
+| **Period Info** / **Информация о периоде** | Show Period / Показывать период | Toggle subscription period display. / Включение/выключение отображения периода подписки. |
 | | Show Days Left / Показывать дней осталось | Display "Period: X days left". / Отображение "Period: X days left". |
 | | Show Dates / Показывать даты | Display period start and end dates. / Отображение дат начала и окончания периода. |
 | **Alerts** / **Уведомления** | Low Token Warning / Предупреждение о низких токенах | Warn when tokens below threshold (e.g., 90% used). / Предупреждение при токенах ниже порога (например, 90% использовано). |
@@ -112,7 +112,7 @@
 
 <div align="center">
 
-  <!-- Animated Gradient Footer - Claude Terracotta with Animation -->
+  <!-- Animated Gradient Footer - Claude Terracotta with Glow Effect -->
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:D4785A,100:C96442&height=120&section=footer&animation=twinkling" alt="Footer">
 
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
