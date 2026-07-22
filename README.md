@@ -1,5 +1,5 @@
 <!-- Animated Gradient Header - Dark mode with Glowing Orange Text -->
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:1a1a1a,100:2d2d2d&height=200&section=header&text=ClaudeMeter&fontSize=65&fontColor=FF8C00&animation=twinkling&fontAlignY=40&desc=By%20VexCrux&descSize=18&descAlignY=65&descColor=E8E6E0" alt="Header">
+  <img src="title.svg" alt="ClaudeMeter">.vercel.app/api?type=venom&color=0:1a1a1a,100:2d2d2d&height=200&section=header&text=ClaudeMeter&fontSize=65&fontColor=FF8C00&animation=twinkling&fontAlignY=40&desc=By%20VexCrux&descSize=18&descAlignY=65&descColor=E8E6E0" alt="Header">
 
   <!-- Browser Extension Label - Rounded (Plastic style) with Icon -->
   <p align="center">
