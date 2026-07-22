@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="120">
+  <defs>
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4500">
+        <animate attributeName="stop-color" values="#FF4500; #FF8C00; #FFA500; #FF8C00; #FF4500" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#FF8C00">
+        <animate attributeName="stop-color" values="#FF8C00; #FFA500; #FF4500; #FFA500; #FF8C00" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FFA500">
+        <animate attributeName="stop-color" values="#FFA500; #FF4500; #FF8C00; #FF4500; #FFA500" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="75" font-weight="900" fill="url(#orangeGlow)" text-anchor="middle" dominant-baseline="middle">
+    ClaudeMeter
+  </text>
+  <text x="50%" y="85%" font-family="Arial, sans-serif" font-size="16" fill="#888" text-anchor="middle" dominant-baseline="middle">
+    By VexCrux
+  </text>
+</svg>
