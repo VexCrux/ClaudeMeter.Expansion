@@ -1,9 +1,9 @@
-<!-- Animated Gradient Header - Claude Terracotta with Glow Effect -->
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:C96442,100:D4785A&height=200&section=header&text=ClaudeMeter&fontSize=55&fontColor=F5F4ED&animation=twinkling&fontAlignY=40&desc=By%20VexCrux&descSize=18&descAlignY=65&descColor=E8E6E0" alt="Header">
+<!-- Animated Gradient Header - Dark mode with Glowing Orange Text -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:1a1a1a,100:2d2d2d&height=200&section=header&text=ClaudeMeter&fontSize=65&fontColor=FF8C00&animation=twinkling&fontAlignY=40&desc=By%20VexCrux&descSize=18&descAlignY=65&descColor=E8E6E0" alt="Header">
 
-  <!-- Browser Extension Label - Rounded with Icon -->
+  <!-- Browser Extension Label - Rounded (Plastic style) with Icon -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Browser_Extension-C96442?style=for-the-badge&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
+    <img src="https://img.shields.io/badge/Browser_Extension-FF6B2B?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
   </p>
 
   <!-- Language Switcher - Rounded -->
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.1-C96442?style=plastic" alt="Version">
+    <img src="https://img.shields.io/badge/Version-0.0.1-FF8C00?style=plastic" alt="Version">
   </p>
 
   <!-- Description -->
@@ -112,8 +112,8 @@
 
 <div align="center">
 
-  <!-- Animated Gradient Footer - Claude Terracotta with Glow Effect -->
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:D4785A,100:C96442&height=120&section=footer&animation=twinkling" alt="Footer">
+  <!-- Animated Gradient Footer - Dark mode to match header -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:2d2d2d,100:1a1a1a&height=120&section=footer&animation=twinkling" alt="Footer">
 
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
   <p><b>Track smarter. Chat longer. / Отслеживай умнее. Общайся дольше.</b></p>
@@ -122,5 +122,3 @@
   </p>
 
 </div>
-print("README_ClaudeMeter.md saved successfully!")
-print(f"Total characters: {len(readme)}")
