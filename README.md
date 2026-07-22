@@ -1,9 +1,9 @@
-<!-- Анимированная шапка: Оранжевый фон в стиле Claude, Белый текст, мерцание -->
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:C9623E,100:E88060&height=220&section=header&text=ClaudeMeter&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=By%20VexCrux&descSize=18&descAlignY=72&descColor=ffffff" alt="ClaudeMeter Header">
+<!-- Премиальная шапка: Плавные волны, цвет Claude, мягкое появление -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D55F3E,100:F29C7C&height=220&section=header&text=ClaudeMeter&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=By%20VexCrux&descSize=20&descAlignY=62&descColor=ffffff" alt="ClaudeMeter Header">
 
-  <!-- Browser Extension Label - Закругленный (Plastic) с иконкой -->
+  <!-- Browser Extension Label -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Browser_Extension-C9623E?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
+    <img src="https://img.shields.io/badge/Browser_Extension-D55F3E?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
   </p>
 
   <!-- Language Switcher -->
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.1-C9623E?style=plastic" alt="Version">
+    <img src="https://img.shields.io/badge/Version-0.0.1-D55F3E?style=plastic" alt="Version">
   </p>
 
   <!-- Description -->
@@ -111,12 +111,14 @@
 
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
   
-  <!-- Анимированный печатающийся текст (Крутая фишка) -->
+  <br>
+
+  <!-- ИСПРАВЛЕННЫЙ анимированный печатающийся текст (Новый рабочий сервер) -->
   <a href="https://github.com/VexCrux">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Arial&weight=bold&size=22&duration=3000&pause=1000&color=C9623E&center=true&vCenter=true&lines=Track+smarter.+Chat+longer.;Don't+forget+to+star+the+repo!+⭐;Thank+you+for+using+ClaudeMeter!" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com/?font=Segoe+UI&weight=600&size=24&pause=1000&color=D55F3E&center=true&vCenter=true&width=600&lines=Track+smarter.+Chat+longer.;Don't+forget+to+star+the+repo!+⭐;Thank+you+for+using+ClaudeMeter!" alt="Typing SVG">
   </a>
 
-  <!-- Анимированный футер: Обратный градиент -->
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:E88060,100:C9623E&height=120&section=footer&animation=twinkling" alt="Footer">
+  <!-- Премиальный футер: Обратные плавные волны -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F29C7C,100:D55F3E&height=120&section=footer&animation=fadeIn" alt="Footer">
 
 </div>
