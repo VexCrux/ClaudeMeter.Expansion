@@ -3,7 +3,7 @@
 
   <!-- Browser Extension Label - Rounded with Icon -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Browser_Extension-C96442?style=for-the-badge&labelColor=1a1a1a&logo=googlechrome&logoColor=white&borderRadius=20" alt="Browser Extension">
+    <img src="https://img.shields.io/badge/Browser_Extension-C96442?style=for-the-badge&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
   </p>
 
   <!-- Language Switcher - Rounded -->
@@ -83,7 +83,7 @@
 
 ---
 
-## ⚙️ Settings / Настройки
+## 🛠️ Configuration / Конфигурация
 
 | 🔧 Section / Раздел | 🔧 Option / Опция | 📋 Description / Описание |
 |---------------------|-------------------|---------------------------|
@@ -122,3 +122,5 @@
   </p>
 
 </div>
+print("README_ClaudeMeter.md saved successfully!")
+print(f"Total characters: {len(readme)}")
