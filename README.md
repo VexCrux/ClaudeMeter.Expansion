@@ -1,5 +1,5 @@
 <!-- Animated Wave Header - Claude Terracotta Warm Theme -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:C96442,100:1a1a1a&height=180&section=header&text=ClaudeMeter&fontSize=55&fontColor=F5F4ED&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=16&descAlignY=55&descColor=B0AEA5" alt="Header">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C96442,50:D4785A,100:C96442&height=180&section=header&text=ClaudeMeter&fontSize=55&fontColor=F5F4ED&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=16&descAlignY=55&descColor=E8E6E0" alt="Header">
 
   <!-- Language Switcher - Rounded -->
   <p align="center">
@@ -30,9 +30,7 @@
   <p align="center">
     <a href="#-features--возможности">✨ Features</a> •
     <a href="#-installation--установка">🚀 Install</a> •
-    <a href="#-project-structure--структура-проекта">📁 Structure</a> •
-    <a href="#-settings--настройки">⚙️ Settings</a> •
-    <a href="#-security-notes--примечания-по-безопасности">🛡️ Security</a>
+    <a href="#-settings--настройки">⚙️ Settings</a>
   </p>
 
 </div>
@@ -62,13 +60,12 @@
 | # | 🏷️ Feature (EN) | 🏷️ Возможность (RU) | 📋 Description |
 |---|------------------|----------------------|---------------|
 | 1 | **Master Toggle** | **Главный выключатель** | Instantly enable/disable the entire extension. / Мгновенное включение или отключение расширения. |
-| 2 | **Site Exceptions** | **Исключения для сайтов** | Disable for specific pages or domains. / Отключение для конкретных страниц или доменов. |
-| 3 | **Token Monitor** | **Мониторинг токенов** | Real-time stats: tokens used, tokens remaining, usage percentage, reset timer. / Статистика в реальном времени: использовано токенов, осталось, процент использования, таймер сброса. |
-| 4 | **Period Tracker** | **Отслеживание периода** | Track subscription period: start date, end date, days remaining. / Отслеживание периода подписки: дата начала, дата окончания, дней осталось. |
-| 5 | **Usage Alerts** | **Уведомления об использовании** | Get warned when tokens are running low or period is ending. / Предупреждения при заканчивающихся токенах или сроке подписки. |
-| 6 | **Model Detection** | **Определение модели** | Auto-detect Claude model (Sonnet 5, Opus, etc.) and show model-specific limits. / Автоопределение модели Claude и отображение лимитов для каждой модели. |
-| 7 | **Dark Mode UI** | **Тёмный режим интерфейса** | Beautiful dark theme matching Claude.ai design. / Красивый тёмный интерфейс в стиле Claude.ai. |
-| 8 | **Lightweight** | **Оптимизация** | Zero bloat. Built for speed and stability. / Лёгкая архитектура без нагрузки на браузер. |
+| 2 | **Token Monitor** | **Мониторинг токенов** | Real-time stats: tokens used, tokens remaining, usage percentage, reset timer. / Статистика в реальном времени: использовано токенов, осталось, процент использования, таймер сброса. |
+| 3 | **Period Tracker** | **Отслеживание периода** | Track subscription period: start date, end date, days remaining. / Отслеживание периода подписки: дата начала, дата окончания, дней осталось. |
+| 4 | **Usage Alerts** | **Уведомления об использовании** | Get warned when tokens are running low or period is ending. / Предупреждения при заканчивающихся токенах или сроке подписки. |
+| 5 | **Model Detection** | **Определение модели** | Auto-detect Claude model (Sonnet 5, Opus, etc.) and show model-specific limits. / Автоопределение модели Claude и отображение лимитов для каждой модели. |
+| 6 | **Dark Mode UI** | **Тёмный режим интерфейса** | Beautiful dark theme matching Claude.ai design. / Красивый тёмный интерфейс в стиле Claude.ai. |
+| 7 | **Lightweight** | **Оптимизация** | Zero bloat. Built for speed and stability. / Лёгкая архитектура без нагрузки на браузер. |
 
 ---
 
@@ -84,41 +81,6 @@
 
 > 💡 **EN:** Pin the extension icon to your toolbar for instant access.  
 > 💡 **RU:** Закрепите иконку расширения на панели инструментов для быстрого доступа.
-
----
-
-## 📁 Project Structure / Структура проекта
-
-```text
-📁 claudemeter/
-├── 📁 assets/            # UI styles / Стили интерфейса
-├── 📁 icons/             # Extension icons / Иконки расширения
-├── 📄 background.js      # Background service worker / Фоновый скрипт
-├── 📄 content-loader.js  # Script injection loader / Загрузчик скриптов
-├── 📄 inject.js          # Injected content script / Инжектируемый скрипт
-├── 📄 manifest.json      # Extension manifest / Манифест расширения
-├── 📄 popup.html         # Popup UI markup / Интерфейс меню
-└── 📄 popup.js           # Popup logic / Логика меню
-```
-
----
-
-## 🖼️ Interface Preview / Скриншоты интерфейса
-
-<details>
-<summary><b>📸 Click to expand / Нажмите, чтобы развернуть</b></summary>
-
-<br>
-
-**Main Panel — Token usage & period tracking / Главная панель — использование токенов и отслеживание периода:**
-
-![Main Panel](assets/screenshot-main.png)
-
-**Settings — Toggles, alerts, model selection / Настройки — переключатели, уведомления, выбор модели:**
-
-![Settings](assets/screenshot-settings.png)
-
-</details>
 
 ---
 
@@ -143,21 +105,10 @@
 
 ---
 
-## 🛡️ Security Notes / Примечания по безопасности
-
-| 🔒 Feature / Функция | 🎯 Why It Matters / Зачем это нужно |
-|----------------------|--------------------------------------|
-| Local Data Only | All token data is read from the page DOM — no external API calls, no data leaks. / Все данные о токенах считываются из DOM страницы — никаких внешних API-запросов, никаких утечек данных. |
-| No Credentials Stored | ClaudeMeter never stores your API keys or login credentials. / ClaudeMeter никогда не хранит ваши API-ключи или учётные данные. |
-| Per-Site Control | Enable/disable tracking per domain to avoid conflicts. / Включение/отключение отслеживания для каждого домена для избежания конфликтов. |
-| Privacy First | No analytics, no tracking, no telemetry — your data stays yours. / Никакой аналитики, отслеживания или телеметрии — ваши данные остаются вашими. |
-
----
-
 <div align="center">
 
   <!-- Animated Wave Footer - Claude Terracotta Warm Theme -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C96442,50:1a1a1a,100:C96442&height=120&section=footer" alt="Footer">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4785A,50:C96442,100:D4785A&height=120&section=footer" alt="Footer">
 
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
   <p><b>Track smarter. Chat longer. / Отслеживай умнее. Общайся дольше.</b></p>
