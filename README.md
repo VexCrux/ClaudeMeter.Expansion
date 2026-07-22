@@ -1,5 +1,10 @@
-<!-- Animated Gradient Header - Claude Terracotta -->
+<!-- Animated Gradient Header - Claude Terracotta with Glow -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:C96442,100:D4785A&height=120&section=header&text=ClaudeMeter&fontSize=50&fontColor=F5F4ED&animation=fadeIn&fontAlignY=50" alt="Header">
+
+  <!-- Browser Extension Label -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/🌐_Browser_Extension-C96442?style=for-the-badge&labelColor=1a1a1a" alt="Browser Extension">
+  </p>
 
   <!-- Language Switcher - Rounded -->
   <p align="center">
