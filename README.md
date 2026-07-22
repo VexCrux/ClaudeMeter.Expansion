@@ -1,5 +1,5 @@
-<!-- Animated Wave Header - Claude Terracotta/Dark Theme -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:C15F3C,100:1a1a1a&height=180&section=header&text=ClaudeMeter&fontSize=55&fontColor=F4F3EE&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=16&descAlignY=55&descColor=B1ADA1" alt="Header">
+<!-- Animated Wave Header - Claude Terracotta Warm Theme -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:C96442,100:1a1a1a&height=180&section=header&text=ClaudeMeter&fontSize=55&fontColor=F5F4ED&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=16&descAlignY=55&descColor=B0AEA5" alt="Header">
 
   <!-- Language Switcher - Rounded -->
   <p align="center">
@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.1-C15F3C?style=plastic" alt="Version">
+    <img src="https://img.shields.io/badge/Version-0.0.1-C96442?style=plastic" alt="Version">
   </p>
 
   <!-- Description -->
@@ -156,8 +156,8 @@
 
 <div align="center">
 
-  <!-- Animated Wave Footer - Claude Terracotta/Dark Theme -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C15F3C,50:1a1a1a,100:C15F3C&height=120&section=footer" alt="Footer">
+  <!-- Animated Wave Footer - Claude Terracotta Warm Theme -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C96442,50:1a1a1a,100:C96442&height=120&section=footer" alt="Footer">
 
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
   <p><b>Track smarter. Chat longer. / Отслеживай умнее. Общайся дольше.</b></p>
