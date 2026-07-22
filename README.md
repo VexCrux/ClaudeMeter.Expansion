@@ -1,9 +1,9 @@
-<!-- Анимированная шапка по прямой ссылке (Темный фон, мерцание, оранжевый текст, By VexCrux) -->
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,100:2a1610&height=220&section=header&text=ClaudeMeter&fontSize=70&fontColor=FF8C00&animation=twinkling&fontAlignY=42&desc=By%20VexCrux&descSize=18&descAlignY=72&descColor=E8E6E0" alt="ClaudeMeter Header">
+<!-- Анимированная шапка: Оранжевый фон в стиле Claude, Белый текст, мерцание -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:C9623E,100:E88060&height=220&section=header&text=ClaudeMeter&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=By%20VexCrux&descSize=18&descAlignY=72&descColor=ffffff" alt="ClaudeMeter Header">
 
   <!-- Browser Extension Label - Закругленный (Plastic) с иконкой -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Browser_Extension-FF6B2B?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
+    <img src="https://img.shields.io/badge/Browser_Extension-C9623E?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
   </p>
 
   <!-- Language Switcher -->
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.1-FF8C00?style=plastic" alt="Version">
+    <img src="https://img.shields.io/badge/Version-0.0.1-C9623E?style=plastic" alt="Version">
   </p>
 
   <!-- Description -->
@@ -105,20 +105,18 @@
 | **Appearance** / **Внешний вид** | Compact Mode / Компактный режим | Minimize UI to single line. / Минимизация интерфейса в одну строку. |
 | | Position / Позиция | Choose bar position: below input, above input, or floating. / Выбор позиции полосы: под вводом, над вводом или плавающая. |
 
-> 📝 **EN:** Token limits vary by model and subscription tier. ClaudeMeter reads usage data from the Claude.ai interface and does not make external API calls.  
-> 📝 **RU:** Лимиты токенов зависят от модели и уровня подписки. ClaudeMeter считывает данные об использовании из интерфейса Claude.ai и не делает внешних API-запросов.
-
 ---
 
 <div align="center">
 
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
-  <p><b>Track smarter. Chat longer. / Отслеживай умнее. Общайся дольше.</b></p>
-  <p>
-    <sub>⭐ Star this repo if ClaudeMeter helps you stay in control! / Поставьте ⭐, если ClaudeMeter помогает вам держать всё под контролем!</sub>
-  </p>
+  
+  <!-- Анимированный печатающийся текст (Крутая фишка) -->
+  <a href="https://github.com/VexCrux">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Arial&weight=bold&size=22&duration=3000&pause=1000&color=C9623E&center=true&vCenter=true&lines=Track+smarter.+Chat+longer.;Don't+forget+to+star+the+repo!+⭐;Thank+you+for+using+ClaudeMeter!" alt="Typing SVG">
+  </a>
 
-  <!-- Анимированный футер по прямой ссылке -->
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:2a1610,100:000000&height=120&section=footer&animation=twinkling" alt="Footer">
+  <!-- Анимированный футер: Обратный градиент -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:E88060,100:C9623E&height=120&section=footer&animation=twinkling" alt="Footer">
 
 </div>
