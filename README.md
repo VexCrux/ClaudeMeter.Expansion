@@ -1,5 +1,5 @@
-<!-- Пользовательская анимированная шапка (header.svg) -->
-  <img src="header.svg" alt="ClaudeMeter Header">
+<!-- Анимированная шапка по прямой ссылке (Темный фон, мерцание, оранжевый текст, By VexCrux) -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,100:2a1610&height=220&section=header&text=ClaudeMeter&fontSize=70&fontColor=FF8C00&animation=twinkling&fontAlignY=42&desc=By%20VexCrux&descSize=18&descAlignY=72&descColor=E8E6E0" alt="ClaudeMeter Header">
 
   <!-- Browser Extension Label - Закругленный (Plastic) с иконкой -->
   <p align="center">
@@ -118,7 +118,7 @@
     <sub>⭐ Star this repo if ClaudeMeter helps you stay in control! / Поставьте ⭐, если ClaudeMeter помогает вам держать всё под контролем!</sub>
   </p>
 
-  <!-- Пользовательский анимированный футер (footer.svg) -->
-  <img src="footer.svg" alt="Footer">
+  <!-- Анимированный футер по прямой ссылке -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:2a1610,100:000000&height=120&section=footer&animation=twinkling" alt="Footer">
 
 </div>
