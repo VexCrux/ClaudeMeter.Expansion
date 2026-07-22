@@ -1,18 +1,18 @@
-<!-- Animated Gradient Header - Dark mode with Glowing Orange Text -->
-  <img src="title.svg" alt="ClaudeMeter">.vercel.app/api?type=venom&color=0:1a1a1a,100:2d2d2d&height=200&section=header&text=ClaudeMeter&fontSize=65&fontColor=FF8C00&animation=twinkling&fontAlignY=40&desc=By%20VexCrux&descSize=18&descAlignY=65&descColor=E8E6E0" alt="Header">
+<!-- Пользовательская анимированная шапка (header.svg) -->
+  <img src="header.svg" alt="ClaudeMeter Header">
 
-  <!-- Browser Extension Label - Rounded (Plastic style) with Icon -->
+  <!-- Browser Extension Label - Закругленный (Plastic) с иконкой -->
   <p align="center">
     <img src="https://img.shields.io/badge/Browser_Extension-FF6B2B?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
   </p>
 
-  <!-- Language Switcher - Rounded -->
+  <!-- Language Switcher -->
   <p align="center">
     <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
     <img src="https://img.shields.io/badge/🇬🇧_English-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="English">
   </p>
 
-  <!-- Browser Badges - Plastic Rounded with Icons -->
+  <!-- Browser Badges -->
   <p align="center">
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
@@ -24,7 +24,7 @@
   <p align="center"><b>Real-Time Token Tracker for Claude AI</b></p>
   <p align="center"><i>Отслеживание токенов Claude AI в реальном времени</i></p>
 
-  <!-- Quick Stats - Rounded -->
+  <!-- Quick Stats -->
   <p align="center">
     <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=plastic" alt="Stars">
     <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
@@ -112,13 +112,13 @@
 
 <div align="center">
 
-  <!-- Animated Gradient Footer - Dark mode to match header -->
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:2d2d2d,100:1a1a1a&height=120&section=footer&animation=twinkling" alt="Footer">
-
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
   <p><b>Track smarter. Chat longer. / Отслеживай умнее. Общайся дольше.</b></p>
   <p>
     <sub>⭐ Star this repo if ClaudeMeter helps you stay in control! / Поставьте ⭐, если ClaudeMeter помогает вам держать всё под контролем!</sub>
   </p>
+
+  <!-- Пользовательский анимированный футер (footer.svg) -->
+  <img src="footer.svg" alt="Footer">
 
 </div>
