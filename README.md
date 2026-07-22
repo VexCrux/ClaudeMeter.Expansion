@@ -1,13 +1,13 @@
-<!-- Animated Wave Header - Claude Terracotta Warm Theme -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C96442,50:D4785A,100:C96442&height=180&section=header&text=ClaudeMeter&fontSize=55&fontColor=F5F4ED&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=16&descAlignY=55&descColor=E8E6E0" alt="Header">
+<!-- Animated Gradient Header - Claude Terracotta -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:C96442,100:D4785A&height=120&section=header&text=ClaudeMeter&fontSize=50&fontColor=F5F4ED&animation=fadeIn&fontAlignY=50" alt="Header">
 
   <!-- Language Switcher - Rounded -->
   <p align="center">
     <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
-    <img src="https://img.shields.io/badge/🇬🇧_English-Available-6e7681?style=plastic&logo=googletranslate&logoColor=white" alt="English">
+    <img src="https://img.shields.io/badge/🇬🇧_English-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="English">
   </p>
 
-  <!-- Browser Badges - Plastic Rounded -->
+  <!-- Browser Badges - Plastic Rounded with Icons -->
   <p align="center">
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
@@ -24,13 +24,6 @@
     <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=plastic" alt="Stars">
     <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
     <img src="https://img.shields.io/badge/📥_Downloads-0-4ecdc4?style=plastic" alt="Downloads">
-  </p>
-
-  <!-- Quick Navigation -->
-  <p align="center">
-    <a href="#-features--возможности">✨ Features</a> •
-    <a href="#-installation--установка">🚀 Install</a> •
-    <a href="#-settings--настройки">⚙️ Settings</a>
   </p>
 
 </div>
@@ -107,8 +100,8 @@
 
 <div align="center">
 
-  <!-- Animated Wave Footer - Claude Terracotta Warm Theme -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4785A,50:C96442,100:D4785A&height=120&section=footer" alt="Footer">
+  <!-- Animated Gradient Footer - Claude Terracotta -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:D4785A,100:C96442&height=100&section=footer" alt="Footer">
 
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
   <p><b>Track smarter. Chat longer. / Отслеживай умнее. Общайся дольше.</b></p>
