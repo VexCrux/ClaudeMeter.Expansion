@@ -1,9 +1,9 @@
-<!-- Animated Gradient Header - Claude Terracotta with Glow -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:C96442,100:D4785A&height=120&section=header&text=ClaudeMeter&fontSize=50&fontColor=F5F4ED&animation=fadeIn&fontAlignY=50" alt="Header">
+<!-- Animated Gradient Header - Claude Terracotta with Animation -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:C96442,100:D4785A&height=200&section=header&text=ClaudeMeter&fontSize=55&fontColor=F5F4ED&animation=twinkling&fontAlignY=40&desc=By%20VexCrux&descSize=18&descAlignY=65&descColor=E8E6E0" alt="Header">
 
   <!-- Browser Extension Label -->
   <p align="center">
-    <img src="https://img.shields.io/badge/🌐_Browser_Extension-C96442?style=for-the-badge&labelColor=1a1a1a" alt="Browser Extension">
+    <img src="https://img.shields.io/badge/🌐_Browser_Extension-C96442?style=for-the-badge&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
   </p>
 
   <!-- Language Switcher - Rounded -->
@@ -112,8 +112,8 @@
 
 <div align="center">
 
-  <!-- Animated Gradient Footer - Claude Terracotta -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:D4785A,100:C96442&height=100&section=footer" alt="Footer">
+  <!-- Animated Gradient Footer - Claude Terracotta with Animation -->
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:D4785A,100:C96442&height=120&section=footer&animation=twinkling" alt="Footer">
 
   <p><b>Built for Claude users, by a Claude user. / Создано для пользователей Claude, пользователем Claude.</b></p>
   <p><b>Track smarter. Chat longer. / Отслеживай умнее. Общайся дольше.</b></p>
