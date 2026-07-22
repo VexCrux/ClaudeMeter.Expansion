@@ -42,9 +42,9 @@
 ## 🔒 Full Control & Customization / Полный контроль
 
 > [!IMPORTANT]
-> **EN:** You decide how tracking works: **one-click toggle** to disable, **per-site exceptions** for trusted domains, and **granular controls** for token display, period alerts, and UI customization.
+> **EN:** You decide what to display: **toggle visibility** of token bar, period info, and customize colors for each progress bar. All tracking is passive — no data is blocked or modified.
 >
-> **RU:** Вы сами решаете, как работает отслеживание: **полное отключение в один клик**, **исключения для сайтов** и **точечная настройка** отображения токенов, уведомлений о сроках и кастомизации интерфейса.
+> **RU:** Вы сами решаете, что отображать: **включение/выключение видимости** панели токенов, информации о периоде и настройка цветов для каждой полосы прогресса. Всё отслеживание пассивное — никакие данные не блокируются и не изменяются.
 
 ---
 
@@ -52,13 +52,14 @@
 
 | # | 🏷️ Feature (EN) | 🏷️ Возможность (RU) | 📋 Description |
 |---|------------------|----------------------|---------------|
-| 1 | **Master Toggle** | **Главный выключатель** | Instantly enable/disable the entire extension. / Мгновенное включение или отключение расширения. |
-| 2 | **Token Monitor** | **Мониторинг токенов** | Real-time stats: tokens used, tokens remaining, usage percentage, reset timer. / Статистика в реальном времени: использовано токенов, осталось, процент использования, таймер сброса. |
-| 3 | **Period Tracker** | **Отслеживание периода** | Track subscription period: start date, end date, days remaining. / Отслеживание периода подписки: дата начала, дата окончания, дней осталось. |
-| 4 | **Usage Alerts** | **Уведомления об использовании** | Get warned when tokens are running low or period is ending. / Предупреждения при заканчивающихся токенах или сроке подписки. |
+| 1 | **Token Progress Bar** | **Полоса токенов** | Blue bar showing token usage percentage. Left: session usage %. Right: reset timer. / Синяя полоса показывающая процент использования токенов. Слева: процент сессии. Справа: таймер сброса. |
+| 2 | **Messages Progress Bar** | **Полоса сообщений** | Red bar showing remaining messages. Visual indicator of how many messages left. / Красная полоса показывающая оставшиеся сообщения. Визуальный индикатор оставшихся сообщений. |
+| 3 | **Period Display** | **Отображение периода** | Toggle subscription period info: days remaining, period dates. / Включение/выключение информации о периоде подписки: дней осталось, даты периода. |
+| 4 | **Real-Time Stats** | **Статистика в реальном времени** | Live updates as you chat: tokens used, messages sent, time until reset. / Обновления в реальном времени по мере общения: использовано токенов, отправлено сообщений, время до сброса. |
 | 5 | **Model Detection** | **Определение модели** | Auto-detect Claude model (Sonnet 5, Opus, etc.) and show model-specific limits. / Автоопределение модели Claude и отображение лимитов для каждой модели. |
-| 6 | **Dark Mode UI** | **Тёмный режим интерфейса** | Beautiful dark theme matching Claude.ai design. / Красивый тёмный интерфейс в стиле Claude.ai. |
-| 7 | **Lightweight** | **Оптимизация** | Zero bloat. Built for speed and stability. / Лёгкая архитектура без нагрузки на браузер. |
+| 6 | **Customizable Colors** | **Настраиваемые цвета** | Change bar colors: blue for tokens, red for messages, or any custom color. / Изменение цветов полос: синий для токенов, красный для сообщений или любой свой цвет. |
+| 7 | **Compact Mode** | **Компактный режим** | Minimize UI to save space. Show only essential info. / Минимизация интерфейса для экономии места. Показ только важной информации. |
+| 8 | **Lightweight** | **Оптимизация** | Zero bloat. Built for speed and stability. / Лёгкая архитектура без нагрузки на браузер. |
 
 ---
 
@@ -81,17 +82,23 @@
 
 | 🔧 Section / Раздел | 🔧 Option / Опция | 📋 Description / Описание |
 |---------------------|-------------------|---------------------------|
-| **Token Display** / **Отображение токенов** | Show Token Bar / Показывать панель токенов | Toggle token usage bar below chat input. / Включение/отключение панели токенов под полем ввода чата. |
-| | Show Percentage / Показывать процент | Display usage as percentage instead of raw numbers. / Отображение использования в процентах вместо чисел. |
-| | Show Reset Timer / Показывать таймер сброса | Display countdown to next token reset. / Отображение обратного отсчёта до следующего сброса токенов. |
-| **Period Tracking** / **Отслеживание периода** | Show Period Info / Показывать информацию о периоде | Display subscription period below chat input. / Отображение периода подписки под полем ввода чата. |
-| | Alert Before End / Предупреждать перед окончанием | Notify N days before period ends. / Уведомление за N дней до окончания периода. |
-| **Alerts** / **Уведомления** | Low Token Warning / Предупреждение о низких токенах | Warn when tokens below threshold. / Предупреждение при токенах ниже порога. |
+| **Token Bar** / **Полоса токенов** | Show Token Bar / Показывать полосу токенов | Toggle blue progress bar below chat input. / Включение/отключение синей полосы прогресса под полем ввода чата. |
+| | Bar Color / Цвет полосы | Customize token bar color. Default: blue. / Настройка цвета полосы токенов. По умолчанию: синий. |
+| | Show Percentage / Показывать процент | Display "Session: X%" on the left. / Отображение "Session: X%" слева. |
+| | Show Reset Timer / Показывать таймер сброса | Display "Reset in: Xh Xm" on the right. / Отображение "Reset in: Xh Xm" справа. |
+| **Messages Bar** / **Полоса сообщений** | Show Messages Bar / Показывать полосу сообщений | Toggle red progress bar for remaining messages. / Включение/отключение красной полосы прогресса для оставшихся сообщений. |
+| | Bar Color / Цвет полосы | Customize messages bar color. Default: red. / Настройка цвета полосы сообщений. По умолчанию: красный. |
+| | Show Count / Показывать количество | Display "Messages left: X" on the right. / Отображение "Messages left: X" справа. |
+| **Period Info** / **Информация о периоде** | Show Period / Показывать период | Toggle subscription period display. / Включение/отключение отображения периода подписки. |
+| | Show Days Left / Показывать дней осталось | Display "Period: X days left". / Отображение "Period: X days left". |
+| | Show Dates / Показывать даты | Display period start and end dates. / Отображение дат начала и окончания периода. |
+| **Alerts** / **Уведомления** | Low Token Warning / Предупреждение о низких токенах | Warn when tokens below threshold (e.g., 90% used). / Предупреждение при токенах ниже порога (например, 90% использовано). |
+| | Period End Warning / Предупреждение об окончании периода | Warn when period about to end (e.g., 3 days left). / Предупреждение при приближении окончания периода (например, 3 дня осталось). |
 | | Sound Alerts / Звуковые уведомления | Play sound on alert. / Воспроизведение звука при уведомлении. |
 | **Model** / **Модель** | Auto-Detect / Автоопределение | Automatically detect Claude model from page. / Автоматическое определение модели Claude со страницы. |
 | | Manual Select / Ручной выбор | Force specific model: `Sonnet 5`, `Opus 4.7`, `Haiku`. / Принудительный выбор модели: `Sonnet 5`, `Opus 4.7`, `Haiku`. |
-| **Appearance** / **Внешний вид** | Dark Mode / Тёмный режим | Toggle dark/light theme. / Переключение тёмной/светлой темы. |
-| | Compact Mode / Компактный режим | Minimize UI to save space. / Минимизация интерфейса для экономии места. |
+| **Appearance** / **Внешний вид** | Compact Mode / Компактный режим | Minimize UI to single line. / Минимизация интерфейса в одну строку. |
+| | Position / Позиция | Choose bar position: below input, above input, or floating. / Выбор позиции полосы: под вводом, над вводом или плавающая. |
 
 > 📝 **EN:** Token limits vary by model and subscription tier. ClaudeMeter reads usage data from the Claude.ai interface and does not make external API calls.  
 > 📝 **RU:** Лимиты токенов зависят от модели и уровня подписки. ClaudeMeter считывает данные об использовании из интерфейса Claude.ai и не делает внешних API-запросов.
