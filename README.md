@@ -1,9 +1,9 @@
-<!-- Премиальная шапка: Плавные волны, цвет Claude, мягкое появление -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D55F3E,100:F29C7C&height=220&section=header&text=ClaudeMeter&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=By%20VexCrux&descSize=20&descAlignY=62&descColor=ffffff" alt="ClaudeMeter Header">
+<!-- Премиальная шапка: Форма "Soft" (элегантное скругление), цвет Claude, плавное появление -->
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:C95A3B,100:F29C7C&height=220&section=header&text=ClaudeMeter&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=By%20VexCrux&descSize=20&descAlignY=65&descColor=ffffff" alt="ClaudeMeter Header">
 
   <!-- Browser Extension Label -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Browser_Extension-D55F3E?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
+    <img src="https://img.shields.io/badge/Browser_Extension-C95A3B?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
   </p>
 
   <!-- Language Switcher -->
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.1-D55F3E?style=plastic" alt="Version">
+    <img src="https://img.shields.io/badge/Version-0.0.1-C95A3B?style=plastic" alt="Version">
   </p>
 
   <!-- Description -->
@@ -113,12 +113,7 @@
   
   <br>
 
-  <!-- ИСПРАВЛЕННЫЙ анимированный печатающийся текст (Новый рабочий сервер) -->
-  <a href="https://github.com/VexCrux">
-    <img src="https://readme-typing-svg.demolab.com/?font=Segoe+UI&weight=600&size=24&pause=1000&color=D55F3E&center=true&vCenter=true&width=600&lines=Track+smarter.+Chat+longer.;Don't+forget+to+star+the+repo!+⭐;Thank+you+for+using+ClaudeMeter!" alt="Typing SVG">
-  </a>
-
-  <!-- Премиальный футер: Обратные плавные волны -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F29C7C,100:D55F3E&height=120&section=footer&animation=fadeIn" alt="Footer">
+  <!-- Надежный футер со встроенным текстом (Без сторонних багнутых скриптов) -->
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:F29C7C,100:C95A3B&height=140&section=footer&text=Track%20smarter.%20Chat%20longer.&fontSize=26&fontColor=ffffff&fontAlignY=40&desc=⭐%20Don't%20forget%20to%20star%20the%20repo!&descSize=16&descAlignY=70&descColor=ffffff&animation=fadeIn" alt="Footer">
 
 </div>
