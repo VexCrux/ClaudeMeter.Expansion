@@ -1,21 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="120">
   <defs>
-    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF4500">
-        <animate attributeName="stop-color" values="#FF4500; #FF8C00; #FFA500; #FF8C00; #FF4500" dur="4s" repeatCount="indefinite" />
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="50%" stop-color="#2a1610">
+        <animate attributeName="stop-color" values="#2a1610; #1a0a07; #2a1610" dur="5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#FF8C00">
-        <animate attributeName="stop-color" values="#FF8C00; #FFA500; #FF4500; #FFA500; #FF8C00" dur="4s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#FFA500">
-        <animate attributeName="stop-color" values="#FFA500; #FF4500; #FF8C00; #FF4500; #FFA500" dur="4s" repeatCount="indefinite" />
-      </stop>
+      <stop offset="100%" stop-color="#050505"/>
     </linearGradient>
   </defs>
-  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="75" font-weight="900" fill="url(#orangeGlow)" text-anchor="middle" dominant-baseline="middle">
-    ClaudeMeter
-  </text>
-  <text x="50%" y="85%" font-family="Arial, sans-serif" font-size="16" fill="#888" text-anchor="middle" dominant-baseline="middle">
-    By VexCrux
-  </text>
+
+  <!-- Фон с закруглением вверху -->
+  <path d="M0,40 Q400,0 800,40 L800,120 L0,120 Z" fill="url(#bgGradient)" />
+
+  <!-- Мерцающие звезды -->
+  <g fill="#ffffff">
+    <circle cx="15%" cy="70%" r="1.5"><animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" /></circle>
+    <circle cx="85%" cy="60%" r="2"><animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" /></circle>
+    <circle cx="35%" cy="85%" r="1"><animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" /></circle>
+    <circle cx="65%" cy="50%" r="1.5"><animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" /></circle>
+  </g>
 </svg>
