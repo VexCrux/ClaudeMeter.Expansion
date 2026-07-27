@@ -1,7 +1,3 @@
-
-<!-- Logo -->
-<img src="https://freeimage.host/i/CkoJnwu" alt="ClaudeMeter.Expansion Logo" width="180" style="margin-bottom: 20px;">
-
 <!-- Header Banner -->
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:C95A3B,100:F29C7C&height=220&section=header&text=ClaudeMeter&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=By%20VexCrux&descSize=20&descAlignY=65&descColor=ffffff" alt="ClaudeMeter Header">
 
