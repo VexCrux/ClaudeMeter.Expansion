@@ -1,35 +1,39 @@
-<!-- Премиальная шапка: Форма "Soft" (элегантное скругление), цвет Claude, плавное появление -->
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:C95A3B,100:F29C7C&height=220&section=header&text=ClaudeMeter&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=By%20VexCrux&descSize=20&descAlignY=65&descColor=ffffff" alt="ClaudeMeter Header">
 
-  <!-- Browser Extension Label -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Browser_Extension-C95A3B?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
-  </p>
+<!-- Logo -->
+<img src="https://freeimage.host/i/CkoJnwu" alt="ClaudeMeter.Expansion Logo" width="180" style="margin-bottom: 20px;">
 
-  <!-- Language Switcher -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
-    <img src="https://img.shields.io/badge/🇬🇧_English-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="English">
-  </p>
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:C95A3B,100:F29C7C&height=220&section=header&text=ClaudeMeter&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=By%20VexCrux&descSize=20&descAlignY=65&descColor=ffffff" alt="ClaudeMeter Header">
 
-  <!-- Browser Badges -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
-    <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
-    <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.1-C95A3B?style=plastic" alt="Version">
-  </p>
+<!-- Browser Extension Label -->
+<p>
+  <img src="https://img.shields.io/badge/Browser_Extension-C95A3B?style=plastic&labelColor=1a1a1a&logo=googlechrome&logoColor=white" alt="Browser Extension">
+</p>
 
-  <!-- Description -->
-  <p align="center"><b>Real-Time Token Tracker for Claude AI</b></p>
-  <p align="center"><i>Отслеживание токенов Claude AI в реальном времени</i></p>
+<!-- Language Switcher -->
+<p>
+  <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
+  <img src="https://img.shields.io/badge/🇬🇧_English-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="English">
+</p>
 
-  <!-- Quick Stats -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=plastic" alt="Stars">
-    <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
-    <img src="https://img.shields.io/badge/📥_Downloads-0-4ecdc4?style=plastic" alt="Downloads">
-  </p>
+<!-- Browser Badges -->
+<p>
+  <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
+  <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
+  <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
+  <img src="https://img.shields.io/badge/Version-0.0.1-C95A3B?style=plastic" alt="Version">
+</p>
+
+<!-- Description -->
+<h3>Real-Time Token Tracker for Claude AI</h3>
+<p><i>Отслеживание токенов Claude AI в реальном времени</i></p>
+
+<!-- Quick Stats -->
+<p>
+  <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=plastic" alt="Stars">
+  <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
+  <img src="https://img.shields.io/badge/📥_Downloads-0-4ecdc4?style=plastic" alt="Downloads">
+</p>
 
 </div>
 
@@ -113,7 +117,7 @@
   
   <br>
 
-  <!-- Надежный футер со встроенным текстом (Без сторонних багнутых скриптов) -->
+  <!-- Footer -->
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:F29C7C,100:C95A3B&height=140&section=footer&text=Track%20smarter.%20Chat%20longer.&fontSize=26&fontColor=ffffff&fontAlignY=40&desc=⭐%20Don't%20forget%20to%20star%20the%20repo!&descSize=16&descAlignY=70&descColor=ffffff&animation=fadeIn" alt="Footer">
 
 </div>
